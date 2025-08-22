@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>WD : TEAM LIST</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1  maximum-scale=1 user-scalable=no">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-touch-fullscreen" content="yes">
+	<meta name="HandheldFriendly" content="True">
+
+	<link rel="stylesheet" href="css/materialize.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.css">
+	<link rel="stylesheet" href="css/owl.transitions.css">
+	<link rel="stylesheet" href="css/fakeLoader.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	<link rel="shortcut icon" href="img/WDLOGO.png">
+	 <style>
+.container {
+    margin-top: 120px; 
+}
+
+.select-dropdown.dropdown-content {
+    position: center !important;
+    top: auto !important;
+    z-index: 3000 !important;
+}
+</style>
+</head>
+<body>
+
+	<!-- navbar top -->
+	<div class="navbar-top">
+		<div class="side-nav-panel-left">
+			<a href="#" data-activates="slide-out-left" class="side-nav-left"><i class="fa fa-bars"></i></a>
+		</div>
+		<!-- site brand	 -->
+		<div class="site-brand">
+			<a href="https://wardiaries.help/"><img src="img/WDLOGO.png" alt=""></a>
+		</div>
+		<!-- end site brand	 -->
+	</div>
+	<!-- end navbar top -->
+
+	<!-- side nav left-->
+	<div class="side-nav-panel-left">
+		<ul id="slide-out-left" class="side-nav side-nav-panel collapsible">
+			<li class="profil">
+				<img src="img/WDLOGO.png" alt="">
+				<h2>War Diaries</h2>
+			</li>
+			<li class="li-top">
+				<div class="collapsible-header"><i class="fa fa-home"></i>Select<span><i class="fa fa-caret-down"></i></span></div>
+				<div class="collapsible-body">
+					<ul class="side-nav-panel">
+						<li><a href="https://wardiaries.help/">Home</a></li>
+						<li><a href="https://wardiaries.help/">Events</a></li>
+						<li><a href="https://rules.wardiaries.help/">Rules</a></li>
+						<li><a href="https://leaderboard.wardiaries.help/">Leaderboards</a></li>
+						<li><a href="https://funding.wardiaries.help/">Funding</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+			<li><a href="https://error.wardiaries.help/"><i class="fa fa-user"></i>About Us</a></li>
+			<li><a href="https://error.wardiaries.help/"><i class="fa fa-envelope-o"></i>Contact Us</a></li>
+		</ul>
+	</div>
+	<!-- loader -->
+	<div id="fakeLoader"></div>
+	<!-- end loader -->
+
+
+	<!-- Leaderboard Section -->
+<div class="container">
+	<div class="site-brand" text-align: center;>
+			<h1>TEAM LIST : WAR DIARIES [UNDEFINED DATE]</h1>
+		</div>
+  <div class="row">
+    <div class="input-field col s12">
+      <select id="stageGroupSelect">
+        <!-- Options will be added by JS -->
+      </select>
+      <label>Select Stage and Group</label>
+    </div>
+  </div>
+
+  <table id="leaderboard" class="highlight centered">
+   <thead>
+      <tr>
+        <th>TEAM NAME</th>
+        <th>TEAM NAME</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Table rows populated dynamically -->
+    </tbody>
+  </table>
+</div>
+
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="about-us-foot">
+				<h6><img src="img/footer.png" alt=""></h6>
+				<p>This webpage is still under development and being improved. All rules listed here are based on what has been approved by management and remain consistent with the original rulebook. Some content is temporarily presented in sequence and will be properly formatted when time allows.</p>
+				<p>The event and tournament branch of Secret Society Esports, designed to bring players together for competitive matches and exciting esports experiences.</p>
+			</div>
+			<div class="social-media">
+				<a href="https://www.facebook.com/SecretSocietyEsport"><i class="fa fa-facebook"></i></a>
+			</div>
+			<div class="copyright">
+				<span>© Secret Society Tournaments.</span>
+			</div>
+		</div>
+	</div>
+	<!-- end footer -->
+	
+	<!-- scripts -->
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script src="js/leaderboard.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/fakeLoader.min.js"></script>
+	<script src="js/main.js"></script>
+	<!-- Link external JS -->
+
+
+	
+
+</body>
+</html>
